@@ -2,11 +2,7 @@ class N16{
 	public static void main(String args[]){
 		int k=Integer.parseInt(args[0]);
 		if (k>=1 && k<=365){
-			if (k==6){
-				k-=5;
-			}
-			else
-				k=k%7+2;
+			k=(k+2)%7;
 			switch(k){
 				case 3:
 				System.out.println("Wednesday - "+k);

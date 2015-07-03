@@ -1,7 +1,6 @@
 class N17{
 	public static void main(String args[]){
-		int a = Integer.parseInt(args[0]);
-		String b=a+"";
+		String a = String.parseString(args[0]);
 		if (a<=0){
 			System.out.println("Wrong number!");
 		}
