@@ -14,8 +14,6 @@ class N15{
 		System.out.println("Time past from last hour : "+min+"minutes "+sec+"seconds ");
 		}
 		else
-			System.out.println("Your number is out of range!");
-		
-		
+			System.out.println("Your number is out of range!");		
 	}
 }

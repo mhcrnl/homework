@@ -1,8 +1,8 @@
 class N16{
 	public static void main(String args[]){
 		int k=Integer.parseInt(args[0]);
-		if (k>=1 && k<=365){
-			k=(k+2)%7;
+		if (k>0 && k<366){
+			k=(k+1)%7+1;
 			switch(k){
 				case 3:
 				System.out.println("Wednesday - "+k);
