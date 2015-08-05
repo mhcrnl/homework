@@ -1,15 +1,4 @@
 class CustomerTest2{
-	
-	/*public static int creditcardsearch(Customer []c,int a,int b){
-		for(int i=0;i<c.length;i++){
-			
-			if (c[i].getcreditcardno()>a && b>c[i].getcreditcardno() ){
-				return c[i].getcreditcardno();
-			}
-		}
-		return creditcardsearch;
-	}*/
-
 	public static void main(String[] args){
 		
 		Customer clients[] = new Customer[3];
